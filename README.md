@@ -9,56 +9,56 @@ Then this project seeks to do an interactive visualization on the same NTSB Data
 
 # Data set
 ## Raw Data Set
-File Name: aircraft.txt
-Description: Have the details of the air transports (aircrafts, helicopters, balloons etc.) involved in the accident.
-Size: 80982 rows x 93 columns
+File Name: aircraft.txt 
+Description: Have the details of the air transports (aircrafts, helicopters, balloons etc.) involved in the accident. 
+Size: 80982 rows x 93 columns 
 
-File Name: eADMSPUB_DataDictionary.txt
-Description: Have the descriptions of all the columns of all other data files. 
-Size: 4574 rows x 13 columns
+File Name: eADMSPUB_DataDictionary.txt 
+Description: Have the descriptions of all the columns of all other data files.  
+Size: 4574 rows x 13 columns 
 
-File Name: Findings.txt
-Description: Have data related to NTSB findings on different causes of air accidents.
-Size: 37315 rows x 13 columns
+File Name: Findings.txt 
+Description: Have data related to NTSB findings on different causes of air accidents. 
+Size: 37315 rows x 13 columns 
 
-File Name: events.txt
-Description: Have the causes of the events of air accidents.
-Size: 79805 rows x 71 columns
+File Name: events.txt 
+Description: Have the causes of the events of air accidents. 
+Size: 79805 rows x 71 columns 
 
-File Name: injury.txt
-Description: Have the casualty information of the accidents.
-Size: 450174 rows x 7 columns
+File Name: injury.txt 
+Description: Have the casualty information of the accidents. 
+Size: 450174 rows x 7 columns 
 
-File Name: dt_events.txt
-Description: Also have the causes of the events of air accidents.
-Size: 327706 rows x 5 columns
+File Name: dt_events.txt 
+Description: Also have the causes of the events of air accidents. 
+Size: 327706 rows x 5 columns 
 
-File Name: Occurrences.txt
-Description: Have occurrence of events during the flight phase.
-Size: 140334 rows x 8 columns
+File Name: Occurrences.txt 
+Description: Have occurrence of events during the flight phase. 
+Size: 140334 rows x 8 columns 
 
-File Name: states.txt
-Description: Have the names and zip codes of the states of USA.
-Size: 51 rows x 3 columns
+File Name: states.txt 
+Description: Have the names and zip codes of the states of USA. 
+Size: 51 rows x 3 columns 
 
 ## Derived Data Set
-File Name: Aircraft_Makers_No_Of_Accidents.csv
-Description: Contains year-wise accident information for different aircraft maker companies and their respective models involved into accidents.
-Size: 23204 rows x 5 columns
+File Name: Aircraft_Makers_No_Of_Accidents.csv 
+Description: Contains year-wise accident information for different aircraft maker companies and their respective models involved into accidents. 
+Size: 23204 rows x 5 columns 
 
-File Name: Location_Wise_Accidents.csv
-Description: Contains year-wise locations details such as country, state, city, zip, geocode etc. information for different accidents.
-Size: 21717 rows x 10 columns
+File Name: Location_Wise_Accidents.csv 
+Description: Contains year-wise locations details such as country, state, city, zip, geocode etc. information for different accidents. 
+Size: 21717 rows x 10 columns 
 
-File Name: Reasons_For_Accidents.csv
-Description: Contains year-wise primary, secondary reasons for different air crashes.
-Size: 31613 rows x 9 columns
+File Name: Reasons_For_Accidents.csv 
+Description: Contains year-wise primary, secondary reasons for different air crashes. 
+Size: 31613 rows x 9 columns 
 
 # Environment
-Technologies Used: R 3.5.1, Tableau
-Tools Used: RStudio, Shiny, Tableau Public
-Libraries: Shiny, ggplot2, plotly
-O/S: Windows 7
+Technologies Used: R 3.5.1, Tableau 
+Tools Used: RStudio, Shiny, Tableau Public 
+Libraries: Shiny, ggplot2, plotly 
+O/S: Windows 7 
 
 # Run Manual for Shiny App
 1.	At first, the shiny application needs to be downloaded from the Moodle, unzipped saved somewhere in the desktop computer.
